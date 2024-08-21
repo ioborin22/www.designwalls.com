@@ -1,0 +1,32 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://www.designwalls.com/ [R=301,L]
+
+ErrorDocument 404 /404.html
+
+Redirect 301 /kitchen-tables.html /kitchen-tables-various-types.html
+Redirect 301 /white-kitchen-cabinets.html /decorating-with-white-kitchen-cabinets.html
+Redirect 301 /up-to-date-wallpaper-interior-trends-2016.html /up-to-date-wallpaper-interior-trends.html
+Redirect 301 /minimalistliving-room.html /minimalist-living-room.html
+
+Redirect 301 /category/bathroom/ /bathroom.html
+Redirect 301 /category/bedroom/ /bedroom.html
+Redirect 301 /category/bedroom/bed/ /bedroom.html
+Redirect 301 /category/birthday-ideas/ /birthday.html
+Redirect 301 /category/birthday-party-ideas/ /birthday.html
+Redirect 301 /category/decor/ /decor.html
+Redirect 301 /category/design/ /design.html
+Redirect 301 /category/dining-room/ /dining-room.html
+Redirect 301 /category/garage/ /garage.html
+Redirect 301 /category/garden-designs/ /garden-designs.html
+Redirect 301 /category/interior/ /interior.html
+Redirect 301 /category/kids-room/ /kids-room.html
+Redirect 301 /category/kitchen/ /kitchen.html
+Redirect 301 /category/lights/ /lights.html
+Redirect 301 /category/living-room/ /living-room.html
+Redirect 301 /category/office/ /office.html
+Redirect 301 /category/room-ideas/ /living-room.html
+Redirect 301 /category/living-room/sofas/ /sofas.html
+Redirect 301 /category/table/ /decor.html
+Redirect 301 /category/swimming-pool/ /swimming-pool.html
